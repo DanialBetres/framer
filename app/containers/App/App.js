@@ -13,8 +13,7 @@ import { Switch, Route } from 'react-router-dom';
 import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
-import Header from 'components/Header';
-import Footer from 'components/Footer';
+import Header from '../../Header/Containers/HeaderContainer';
 import './style.scss';
 
 const App = () => (
@@ -31,7 +30,6 @@ const App = () => (
       <Route path="/features" component={FeaturePage} />
       <Route path="" component={NotFoundPage} />
     </Switch>
-    <Footer />
   </div>
 );
 
