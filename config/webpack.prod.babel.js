@@ -16,6 +16,7 @@ module.exports = require('./webpack.base.babel')({
     chunkFilename: '[name].[chunkhash].chunk.js'
   },
 
+
   plugins: [
 
     // Minify and optimize the index.html

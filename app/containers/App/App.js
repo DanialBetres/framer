@@ -11,7 +11,7 @@ import { Helmet } from 'react-helmet';
 import { Switch, Route } from 'react-router-dom';
 
 import Header from '../../Header/Containers/HeaderContainer';
-import './style.scss';
+import '../../Assets/Styles/style.scss';
 
 const App = () => (
   <div className="app-wrapper">

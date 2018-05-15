@@ -96,6 +96,7 @@
     "image-webpack-loader": "4.2.0",
     "imports-loader": "0.8.0",
     "jest-cli": "22.4.3",
+    "less-loader": "^4.1.0",
     "lint-staged": "7.0.4",
     "node-plop": "0.13.0",
     "node-sass": "^4.7.2",
