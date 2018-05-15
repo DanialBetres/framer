@@ -10,9 +10,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Switch, Route } from 'react-router-dom';
 
-import HomePage from 'containers/HomePage/Loadable';
-import FeaturePage from 'containers/FeaturePage/Loadable';
-import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from '../../Header/Containers/HeaderContainer';
 import './style.scss';
 
@@ -26,9 +23,8 @@ const App = () => (
     </Helmet>
     <Header />
     <Switch>
-      <Route exact path="/" component={HomePage} />
-      <Route path="/features" component={FeaturePage} />
-      <Route path="" component={NotFoundPage} />
+      <Route exact path="/" component={Header} />
+      <Route path="/features" component={Header} />
     </Switch>
   </div>
 );
